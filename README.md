@@ -52,6 +52,7 @@ Divide the model parameters into two groups.
 The first group consists of all parameters with at least 2 dimensions, e.g., weight/embedding matrices and uses a decay of `weight_decay`.
 The second group consists of all other parameters, e.g., biases and layer norms, and does not use weight decay.
 Construct and return a `torch.optim.AdamW` optimizer with `learning_rate` and `betas` that operates on these two parameter groups.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Exercise 7: Training
 
